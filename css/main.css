@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Hanyi Senty Diary";
+  src: url('../fonts/hangyi-senty-diary.ttf')
+}
+
+/***BASE STYLES***/
+body {
+  font-family:'Hanyi Senty Diary',sans-serif;
+}
+
+/***HEADER***/
+
+ul {
+  list-style: none;
+  padding-top: 15px;
+  margin-left: 550px;
+}
+
+li {
+  display: inline-block;
+  padding-left: 20px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+li:hover, li:focus, li:active {
+  background-color: #ffff99;
+  color: white;
+  cursor: pointer;
+  cursor:hand;
+}
+
+header a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #77a466;
+}
+
+header h1 span {
+  color:#77a466;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+img {
+  border-top: 5px solid #ffff99;
+  border-bottom: 5px solid #ffff99;
+  width: 1200px;
+  height: 500px;
+}
+/***GRID***/
+section {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float:left;
+  padding-top: 50px 0 50px 0;
+}
+
+.third-width {
+  width:380px;
+  height: 210px;
+  float:left;
+}
+
+footer {
+  clear:both;
+}
+
+
+/***ABOUT***/
+
+#about h2 {
+  font-weight: bold;
+  font-size: 35px;
+  color: #77a466;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#about p {
+  line-height: 30px;
+  padding-bottom: 30px;
+  font-family: "Montserrat",sans-serif;
+}
+
+/***EXTRA INFORMATION***/
+
+#extra-info {
+  width:1200px;
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+
+#specials {
+  border-right: 1px solid #dedbdc;
+}
+
+#specials h3 {
+  font-size: 26px;
+  padding: 10px 30px 0px 0px;
+}
+
+#specials p {
+  color:#77a466;
+  font-size: 20px;
+}
+
+#reviews {
+  border-right: 1px solid #dedbdc;
+}
+
+#reviews p {
+  padding: 0 30px 30px 30px;
+  font-family: "Montserrat",sans-serif;
+  font-size: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+#reviews h3 {
+  font-size: 26px;
+  padding: 10px 30px 0px 30px;
+}
+
+
+#contact h3{
+  font-size: 26px;
+  padding: 10px 30px 0px 30px;
+}
+
+#contact p {
+  padding-left: 30px;
+  font-size: 26px;
+}
+
+#contact-text {
+  width:200px;
+}
+
+#contact img {
+  width:40px;
+  height:40px;
+  border: none;
+  padding-left: 30px;
+  padding-right: 10px;
+  float:left;
+}
+
+#line {
+  clear: both;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+/***FOOTER***/
+#footer {
+  border-top: 1px solid #dedbdc;
+  width:1200px;
+}
+
+footer h2 {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+footer h2 span {
+  font-family: 'dancing script', cursive;
+  color: #77a466;
+}
